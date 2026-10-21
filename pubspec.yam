@@ -1,0 +1,14 @@
+name: unity_game
+description: Ana Muslim App
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+flutter:
+  uses-material-design: true
